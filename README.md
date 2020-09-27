@@ -1,5 +1,7 @@
 # victorborras.dev
 
+This is just my personal site :)
+
 ## Build Setup
 
 ```bash
