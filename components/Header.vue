@@ -24,7 +24,7 @@ header {
   justify-content: center;
   align-items: stretch;
   background: var(--primary);
-  color: white;
+  color: var(--white);
 }
 
 .header__container {

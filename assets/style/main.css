@@ -4,6 +4,7 @@
   --primary: #414C7D;
   --black: #191C38;
   --grey: #717385;
+  --white: #F0F1F5;
   --font-title: 'Bebas Neue', sans-serif;
   --font-standard: 'PT Mono', monospace;
   --breakpoint-mobile: 400px;
@@ -13,6 +14,7 @@
 html, body {
   height: 100%;
   font-family: var(--font-standard);
+  background: var(--white);
 }
 
 .container {
