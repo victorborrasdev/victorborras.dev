@@ -1,7 +1,17 @@
 <template>
-  <div class="container"></div>
+  <div>
+    <Header />
+    <Main />
+  </div>
 </template>
 
 <script>
-export default {}
+import Header from '~/components/Header'
+
+export default {
+  name: 'HomePage',
+  components: {
+    Header,
+  },
+}
 </script>

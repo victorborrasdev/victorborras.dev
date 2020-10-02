@@ -1,0 +1,16 @@
+@import 'minireset.css/minireset.css';
+
+:root {
+  --primary: #414C7D;
+  --black: #191C38;
+  --grey: #717385;
+  --font-title: 'Bebas Neue', sans-serif;
+  --font-standard: 'PT Mono', monospace;
+  --breakpoint-mobile: 400px;
+  --breakpoint-tablet: 700px;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-standard);
+}
