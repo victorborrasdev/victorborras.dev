@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div class="header__container">
+    <div class="header__container container">
       <img
         src="~/assets/images/victor.jpg"
         alt="Victor Borràs Castell"
@@ -31,8 +31,6 @@ header {
   --title-width: 170px;
 
   display: flex;
-  width: 100%;
-  max-width: 1000px;
   height: 170px;
   justify-content: flex-start;
   align-items: center;
