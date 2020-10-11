@@ -1,14 +1,15 @@
 <template>
   <header class="header">
-    <div class="header__container">
-      <h1 class="header__title">Victor Borràs Castell</h1>
-    </div>
+    <h1 class="header__title">Victor Borràs Castell</h1>
+    <TheNavbar />
   </header>
 </template>
 
 <script>
+import TheNavbar from '@/components/layout/TheNavbar'
 export default {
   name: 'TheHeader',
+  components: { TheNavbar },
 }
 </script>
 
