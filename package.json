@@ -26,7 +26,7 @@
     "@nuxt/content": "^1.10.0",
     "@nuxtjs/svg": "^0.1.12",
     "core-js": "^3.7.0",
-    "minireset.css": "0.0.6",
+    "minireset.css": "0.0.7",
     "nuxt": "^2.14.7"
   },
   "devDependencies": {
