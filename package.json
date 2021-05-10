@@ -27,7 +27,7 @@
     "@nuxtjs/svg": "^0.1.12",
     "core-js": "^3.11.2",
     "minireset.css": "0.0.7",
-    "nuxt": "^2.15.4"
+    "nuxt": "^2.15.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
