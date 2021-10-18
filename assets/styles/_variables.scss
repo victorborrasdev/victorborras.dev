@@ -1,0 +1,46 @@
+@import './functions/functions';
+
+:root {
+  /**
+   TYPOGRAPHY
+   */
+
+  // Font sizes
+  --font-size-ratio: 1.33;
+  --font-size-base: 1rem;
+
+  --font-size-sm: calc(var(--font-size-base) / var(--font-size-ratio));
+  --font-size-xs: calc(var(--font-size-sm) / var(--font-size-ratio));
+  --font-size-xxs: calc(var(--font-size-xs) / var(--font-size-ratio));
+
+  --font-size-md: calc(var(--font-size-base) * var(--font-size-ratio));
+  --font-size-lg: calc(var(--font-size-md) * var(--font-size-ratio));
+  --font-size-xl: calc(var(--font-size-lg) * var(--font-size-ratio));
+  --font-size-xxl: calc(var(--font-size-xl) * var(--font-size-ratio));
+  --font-size-xxxl: calc(var(--font-size-xxl) * var(--font-size-ratio));
+
+  // Font families
+  --font-family-primary: 'Poppins', sans-serif;
+  --font-family-secondary: 'Playfair Display', serif;
+
+  // Font weight
+  --font-weight-light: 300;
+  --font-weight-norma: 400;
+  --font-weight-bold: 700;
+
+  // Spacing
+  --line-height-offset: 2;
+  --text-spacing: 2rem;
+
+  --line-height-base: 1.7;
+
+  --line-height-sm: calc(var(--line-height-base) / var(--line-height-ratio));
+  --line-height-xs: calc(var(--line-height-sm) / var(--line-height-ratio));
+  --line-height-xxs: calc(var(--line-height-xs) / var(--line-height-ratio));
+
+  --line-height-md: calc(var(--line-height-base) * var(--line-height-ratio));
+  --line-height-lg: calc(var(--line-height-md) * var(--line-height-ratio));
+  --line-height-xl: calc(var(--line-height-lg) * var(--line-height-ratio));
+  --line-height-xxl: calc(var(--line-height-xl) * var(--line-height-ratio));
+  --line-height-xxxl: calc(var(--line-height-xxl) * var(--line-height-ratio));
+}

@@ -1,0 +1,17 @@
+body {
+}
+
+h1 {
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-bold);
+  color: midnightblue;
+  font-size: var(--font-size-xxl);
+  line-height: var(--line-height-base);
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-family: var(--font-family-primary);
+  line-height: var(--line-height-base);
+  margin-bottom: 1.5rem;
+}
